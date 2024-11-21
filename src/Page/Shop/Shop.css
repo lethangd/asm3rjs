@@ -1,0 +1,69 @@
+.shop-container {
+  padding: 40px 0;
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-list li {
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+.category-list li.active {
+  font-weight: bold;
+  color: #000;
+}
+.shop-container {
+  padding: 40px 0;
+}
+
+.sidebar-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.category-group {
+  margin-bottom: 20px;
+}
+
+.category-group-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.category-item {
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 5px 0;
+}
+
+.category-item.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.category-item:hover {
+  color: #000;
+}
+
+.category-group-title,
+.category-item.active {
+  background-color: #f7f7f7;
+  padding: 5px;
+}
+.category-group ul {
+  list-style-type: none;
+  padding-left: 0; /* Để loại bỏ khoảng cách bên trái */
+}

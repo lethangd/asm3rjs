@@ -1,0 +1,24 @@
+.browse-category-container {
+  padding: 40px 0;
+}
+
+.category-card {
+  cursor: pointer;
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-card:hover {
+  transform: scale(1.05); /* Phóng to nhẹ khi hover */
+}
+
+.category-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover .category-image {
+  transform: scale(1.1); /* Phóng to ảnh khi hover */
+}

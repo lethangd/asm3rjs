@@ -1,0 +1,37 @@
+.banner-container {
+  background-image: url("/public/img/banner1.jpg"); /* Đường dẫn tới ảnh nền */
+  background-size: cover; /* Đảm bảo ảnh phủ đầy khu vực */
+  background-position: center; /* Canh giữa ảnh */
+  background-repeat: no-repeat;
+  height: 400px; /* Chiều cao của banner, có thể thay đổi tùy ý */
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  color: #333;
+}
+
+.banner-bg {
+  background-image: url("/public/img/banner1.jpg"); /* Đường dẫn tới ảnh nền */
+  background-size: cover; /* Đảm bảo ảnh phủ đầy khu vực */
+  background-position: center; /* Canh giữa ảnh */
+  height: 600px; /* Chiều cao của banner, có thể thay đổi tùy ý */
+}
+.height-max-content {
+  height: max-content !important;
+}
+.banner-content {
+  max-width: 50%;
+  color: #333;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.banner-content .btn {
+  margin-top: 20px;
+}

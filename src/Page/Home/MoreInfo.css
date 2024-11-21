@@ -1,0 +1,36 @@
+.more-info-container {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.service-info h6 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.service-info p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.subscribe-section {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.subscribe-section h5 {
+  font-weight: bold;
+}
+
+.subscribe-section p {
+  color: #666;
+}
+
+.subscribe-section .form-control {
+  border-radius: 0;
+}
+
+.subscribe-section .btn {
+  border-radius: 0;
+}

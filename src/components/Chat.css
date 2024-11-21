@@ -1,0 +1,95 @@
+/* Messenger Container */
+.messenger-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 9999;
+}
+
+/* Floating Messenger Icon */
+.messenger-icon {
+  background-color: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Popup Chat Box */
+.chat-popup {
+  position: fixed;
+  bottom: 150px;
+  right: 100px;
+  width: 35%;
+  height: 60%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 9999;
+}
+
+/* Chat Header */
+.chat-header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.chat-header h5 {
+  margin: 0;
+}
+
+.chat-header .close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Chat Body */
+.chat-body {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.chat-message {
+  margin-bottom: 10px;
+}
+
+.chat-message .admin {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #0078ff;
+}
+
+/* Chat Footer */
+.chat-footer {
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.chat-footer .chat-input {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.chat-footer .send-btn {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
