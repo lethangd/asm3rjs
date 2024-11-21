@@ -4,11 +4,36 @@ import { useNavigate } from "react-router-dom";
 import "./BrowseCategory.css";
 
 const categories = [
-  { id: 1, image: "/img/product_1.png", alt: "iPhone", name: "iPhone" },
-  { id: 2, image: "/img/product_2.png", alt: "Mac", name: "Macbook" },
-  { id: 3, image: "/img/product_3.png", alt: "iPad", name: "iPad" },
-  { id: 4, image: "/img/product_4.png", alt: "Watch", name: "Watch" },
-  { id: 5, image: "/img/product_5.png", alt: "AirPods", name: "AirPod" },
+  {
+    id: 1,
+    image: `${process.env.PUBLIC_URL}/img/product_1.png`,
+    alt: "iPhone",
+    name: "iPhone",
+  },
+  {
+    id: 2,
+    image: `${process.env.PUBLIC_URL}/img/product_2.png`,
+    alt: "Mac",
+    name: "Macbook",
+  },
+  {
+    id: 3,
+    image: `${process.env.PUBLIC_URL}/img/product_3.png`,
+    alt: "iPad",
+    name: "iPad",
+  },
+  {
+    id: 4,
+    image: `${process.env.PUBLIC_URL}/img/product_4.png`,
+    alt: "Watch",
+    name: "Watch",
+  },
+  {
+    id: 5,
+    image: `${process.env.PUBLIC_URL}/img/product_5.png`,
+    alt: "AirPods",
+    name: "AirPod",
+  },
 ];
 
 const BrowseCategory = () => {

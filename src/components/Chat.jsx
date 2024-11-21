@@ -52,7 +52,7 @@ const Chat = () => {
               <img
                 width={"50px"}
                 height={"50px"}
-                src="/img/businessman.png"
+                src={`${process.env.PUBLIC_URL}/img/businessman.png`}
                 alt="admin"
                 className="avatar"
               />
@@ -64,7 +64,7 @@ const Chat = () => {
               <img
                 width={"50px"}
                 height={"50px"}
-                src="/img/businessman.png"
+                src={`${process.env.PUBLIC_URL}/img/businessman.png`}
                 alt="admin"
                 className="avatar"
               />
@@ -77,7 +77,7 @@ const Chat = () => {
             <img
               width={"50px"}
               height={"50px"}
-              src="/img/businessman.png"
+              src={`${process.env.PUBLIC_URL}/img/businessman.png`}
               alt="admin"
               className="avatar"
             />
